@@ -1,23 +1,31 @@
-# RRG Dealer Operating System v7
+# RRG Dealer Operating System v6.8
 
 Upload `index.html` to the root of your GitHub Pages repo.
 
-## What changed in v7
+## What changed in v6.8
 
-- Reworked the F&I summary so the finance engine is based on New Retail + Used units only.
-- F&I GP remains from the DOC only; the F&I log is used for headlines/products/lenders.
-- Products per customer is calculated against actual New Retail + Used units MTD.
-- F&I forecast now follows the management forecast for New Retail and Used only.
-- Sales Funnel conversion table is now full-width landscape.
-- Opportunity Scenarios now sit underneath the funnel rather than beside it.
+- Top dashboard cards simplified to: Forecast Net Profit, Expected Units, Aftersales Forecast and Stock Risk.
+- Centre Pulse remains as the large first tile.
+- Removed duplicate top-line cards for Vehicle Sales GP, Expected New, Used Forecast, F&I Forecast and DOC Bonuses.
+- Detailed values still remain in their own sections: Financial Performance, Vehicle Performance, F&I, Stock and Aftersales.
 
-## Daily process
 
-1. Select Rochdale or Silsden.
-2. Upload DOC.
-3. Upload F&I log if required.
-4. Upload stock list if required.
-5. Upload Sales Activity report if required.
-6. Upload ASPI if required.
-7. Enter management forecast assumptions.
-8. Review Daily Focus and copy the update.
+## v6.8
+- Removed bonus breakdown section.
+- DOC bonus lines are no longer separately added into forecast. Add bonus value into the DOC GP line if required.
+
+
+## v6.10
+- Expected New input is now explicitly Expected New Retail Deliveries.
+- Manual New Retail, Motability, Used and Trade delivery inputs now update the individual forecast GP lines in Financial Performance as well as Vehicle Performance.
+
+
+## v6.10
+- Financial Performance table now uses management-input forecast units to recalculate and display Forecast GP for New Retail, Motability, Used and Trade.
+- Added Forecast Units column so the adjusted GP is visible in the main financial table as well as Vehicle Performance.
+
+
+## v7.1 changes
+- Vehicle Performance now includes F&I per unit, finance penetration and products per customer.
+- F&I forecast uses DOC F&I actual per New Retail + Used unit multiplied by expected New Retail + Used deliveries.
+- Sales Activity offer rate now reads O/S as offer sheets from enquiries, matching the report conversion ratios.
