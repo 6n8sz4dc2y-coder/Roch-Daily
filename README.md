@@ -1,12 +1,23 @@
-# Rochdale Dealer Dashboard v3
+# Rochdale Dealer Operating Dashboard v4
 
-GitHub-ready standalone app. Upload `index.html` to the repository root.
+Upload `index.html` to the root of your GitHub Pages repo.
 
-## v3 changes
-- CRS box removed.
-- Last-year accounts upload removed for now.
-- Added Vehicle Sales Forecast section for New, Fleet and Used units.
-- Added Finance & Insurance section for finance/product income using the DOC finance columns currently available.
-- Sales forecast uses calendar days; Service and Parts use weekdays only.
+## What changed in v4
 
-Open the page, upload the Rochdale DOC export, select month/day, then use the dashboard or copy the daily update.
+- Added F&I log upload.
+- Added live stock list upload.
+- Removed CRS from the dashboard for now.
+- New car forecast is now a management input, not a straight-line run-rate forecast.
+- Added management inputs for expected new deliveries, expected used deliveries, bonus adjustment and expense adjustment.
+- Added Vehicle Sales GP into the run-rate/financial view.
+- Added used stock module: stock count, retail ready, awaiting prep, online status, ageing and oldest stock.
+- Added F&I module: finance penetration, profit to plan, products per customer, product profit and lender volume.
+
+## Daily process
+
+1. Upload DOC.
+2. Upload F&I log if required.
+3. Upload live stock list if required.
+4. Enter management forecast for new deliveries.
+5. Review Daily Focus and copy the update.
+
