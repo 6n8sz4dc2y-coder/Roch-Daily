@@ -1,22 +1,22 @@
-# Rochdale Dealer Operating Dashboard v5
+# RRG Dealer Operating System v6
 
-Upload `index.html` to the root of your GitHub Pages repo.
+Upload `index.html` to the root of your GitHub Pages repository.
 
-## What changed in v5
+## What changed in v6
 
-- Added Sales Funnel / enquiry report upload.
-- Added forecast orders based on enquiry rate and conversion.
-- Added opportunity scenarios: conversion uplift, enquiry uplift and test-drive uplift.
-- Management inputs now adjust new/used GP forecasts using current GP-per-unit.
-- F&I forecast now adjusts from expected new and used deliveries.
-- Stock section renamed to Stock and expanded with total stock, used/demo/new count and age buckets.
-- Stock Watch and Oldest Stock are now full-width sections for better visibility.
+- Added centre selector for Rochdale and Silsden.
+- Each centre stores its own DOC, F&I, stock, funnel and ASPI uploads while the page is open.
+- Added ASPI upload and Aftersales section for labour, parts and technician efficiency.
+- Reworked F&I layout so the summary runs full width, with Products and Lenders underneath.
+- Kept the existing top dashboard, Things to Watch, Financial Performance, Stock and Daily Update layout.
+- Improved stock section to keep it landscape/full-width.
 
 ## Daily process
 
-1. Upload DOC.
-2. Upload F&I log if required.
-3. Upload live stock list if required.
-4. Upload enquiry / sales funnel report if required.
-5. Enter expected new and used deliveries.
-6. Review Daily Focus, Sales Funnel opportunities and copy the update.
+1. Choose centre: Rochdale or Silsden.
+2. Upload DOC.
+3. Upload F&I log, stock list, funnel and ASPI as required.
+4. Enter management forecast for expected new/used deliveries.
+5. Review Things to Watch and copy the daily update.
+
+Note: uploads are stored in the browser session only. Refreshing or changing device will require re-uploading the reports.
