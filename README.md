@@ -1,14 +1,12 @@
-# Rochdale Dealer Dashboard
+# Rochdale Dealer Dashboard v3
 
-Static GitHub Pages app.
+GitHub-ready standalone app. Upload `index.html` to the repository root.
 
-## Deploy
-1. Upload `index.html` to the root of your GitHub repository.
-2. Go to Settings > Pages.
-3. Source: Deploy from branch.
-4. Branch: main.
-5. Folder: / root.
-6. Save and wait 1-5 minutes.
+## v3 changes
+- CRS box removed.
+- Last-year accounts upload removed for now.
+- Added Vehicle Sales Forecast section for New, Fleet and Used units.
+- Added Finance & Insurance section for finance/product income using the DOC finance columns currently available.
+- Sales forecast uses calendar days; Service and Parts use weekdays only.
 
-## Use
-Open the site, upload the Rochdale DOC Excel export, select the month/day, and use the dashboard.
+Open the page, upload the Rochdale DOC export, select month/day, then use the dashboard or copy the daily update.
