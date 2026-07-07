@@ -1,9 +1,21 @@
-# RRG Dealer Operating System v9.5
+# RRG Dealer Operating System v9.5 Gold Forecast
 
-Fixed loader build.
+Built from the working v9.4 Fixed baseline.
 
-- Uses the corrected v9.4 app logic.
-- Removes the broken embedded script that stopped file uploads/rendering.
-- Keeps the Enquiry Projection card and top-row ordering.
+## Included in this build
 
-Upload `index.html` to the root of the GitHub Pages repo.
+- Keeps the v9.4 Fixed upload loader intact.
+- Trade GP is shown separately but rolled into the Used GP/Used target logic.
+- Service Other Income is included in Aftersales and Total GP.
+- Vehicle Performance shows Current RR, Required RR, Forecast RR and To Go.
+- Executive cards retained from the premium build.
+- Enquiry Projection card retained.
+
+## GitHub Pages
+
+Upload `index.html`, `app.js` and `README.md` to the root of the repository.
+
+GitHub Pages should point to:
+
+- Branch: `main`
+- Folder: `/ (root)`
