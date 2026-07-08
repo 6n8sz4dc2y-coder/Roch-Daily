@@ -1,10 +1,9 @@
-# Dealer OS - Service Daily build
+# Dealer OS Executive Light + Service Daily
 
 Upload `index.html` to the root of your GitHub Pages repo.
 
-## Changes
+This build keeps the Executive Light visual theme and adds the Service Daily / End of Day upload and section.
 
-- Built from the last confirmed working file.
-- Added Service Daily / End of Day upload.
-- Added Service Daily section with GP, turnover, CPUs and variance to target.
-- Loader changes are minimal: DOC, F&I, Stock, Funnel and ASPI inputs are left intact.
+Files required in root:
+- index.html
+- README.md
