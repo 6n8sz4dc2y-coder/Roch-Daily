@@ -1,15 +1,10 @@
-# Dealer OS 1.0 Executive Light
+# Dealer OS - Service Daily build
 
-Upload `index.html` to the root of your GitHub Pages repository.
+Upload `index.html` to the root of your GitHub Pages repo.
 
-## What changed
+## Changes
 
-- Rebuilt from the last working single-file dashboard.
-- Changed the interface to a premium light theme.
-- Added Toyota-style red accenting, white cards, softer tables and clearer spacing.
-- No import, loader or calculation logic has been changed.
-
-## Files
-
-- `index.html`
-
+- Built from the last confirmed working file.
+- Added Service Daily / End of Day upload.
+- Added Service Daily section with GP, turnover, CPUs and variance to target.
+- Loader changes are minimal: DOC, F&I, Stock, Funnel and ASPI inputs are left intact.
