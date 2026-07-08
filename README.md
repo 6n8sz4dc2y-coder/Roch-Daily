@@ -1,22 +1,11 @@
-# Rochdale Dealer Operating Dashboard v5
+# RRG Dealer Operating System v9.1
 
 Upload `index.html` to the root of your GitHub Pages repo.
 
-## What changed in v5
+## What changed in v9.1
 
-- Added Sales Funnel / enquiry report upload.
-- Added forecast orders based on enquiry rate and conversion.
-- Added opportunity scenarios: conversion uplift, enquiry uplift and test-drive uplift.
-- Management inputs now adjust new/used GP forecasts using current GP-per-unit.
-- F&I forecast now adjusts from expected new and used deliveries.
-- Stock section renamed to Stock and expanded with total stock, used/demo/new count and age buckets.
-- Stock Watch and Oldest Stock are now full-width sections for better visibility.
-
-## Daily process
-
-1. Upload DOC.
-2. Upload F&I log if required.
-3. Upload live stock list if required.
-4. Upload enquiry / sales funnel report if required.
-5. Enter expected new and used deliveries.
-6. Review Daily Focus, Sales Funnel opportunities and copy the update.
+- Added optional GPPU management inputs for New Retail, Used and Trade.
+- Vehicle Sales top card now includes Vehicle GP + DOC F&I forecast in the sales total.
+- Vehicle Sales variance now compares against Vehicle GP + F&I budget.
+- Finance & Insurance top card now focuses on quality metrics only: PPC, finance penetration and £ per retail unit.
+- F&I profit remains counted in Vehicle Sales / Net Profit via the DOC, not duplicated as a separate headline profit card.
