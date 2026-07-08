@@ -1,11 +1,15 @@
-# RRG Dealer Operating System v9.1
+# Dealer OS 1.0 Executive Light
 
-Upload `index.html` to the root of your GitHub Pages repo.
+Upload `index.html` to the root of your GitHub Pages repository.
 
-## What changed in v9.1
+## What changed
 
-- Added optional GPPU management inputs for New Retail, Used and Trade.
-- Vehicle Sales top card now includes Vehicle GP + DOC F&I forecast in the sales total.
-- Vehicle Sales variance now compares against Vehicle GP + F&I budget.
-- Finance & Insurance top card now focuses on quality metrics only: PPC, finance penetration and £ per retail unit.
-- F&I profit remains counted in Vehicle Sales / Net Profit via the DOC, not duplicated as a separate headline profit card.
+- Rebuilt from the last working single-file dashboard.
+- Changed the interface to a premium light theme.
+- Added Toyota-style red accenting, white cards, softer tables and clearer spacing.
+- No import, loader or calculation logic has been changed.
+
+## Files
+
+- `index.html`
+
