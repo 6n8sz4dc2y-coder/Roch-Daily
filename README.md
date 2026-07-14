@@ -1,9 +1,10 @@
-# Dealer OS — Corrected Used Stock View
+# Dealer OS — Snapshot Tabs + Completed-Day Logic
 
 Upload `index.html` to the root of the GitHub Pages repository.
 
-- Reads only the main Live Used Stock table.
-- Stops before demonstrators, service loan cars and CBS vehicles.
-- Correctly parses unsold stock, currency text and average stock age.
-- Blank-age vehicles are shown separately as Due in / no age.
-- Adds the executive Used Stock Summary and 90+ risk panel.
+Changes:
+- Front page is now an executive snapshot only.
+- Separate tabs for Financials, Sales, Aftersales, Finance, Stock and Daily Update.
+- Top KPI cards still link to their relevant detailed tab.
+- Current-month DOC defaults to the last completed calendar day (for a morning update on the 14th, it uses day 13).
+- Service Daily remains available on the Aftersales tab and continues to show its own working-days-to-date value.
